@@ -15,6 +15,7 @@ Du kan vælge selv at bygge dit docker image, det gør du ved at køre følgende
 ```
 docker build -t webserver .
 ```
+Husk så at ændre at du bruge dit eget image inde i **webserver-deployment.yaml**
 
 Jeg har også uploade dette image på hub.docker.com, det kan hentes ved at bruge:
 ```
