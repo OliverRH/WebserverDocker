@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver-deployment
+  labels:
+    app: webserver
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: webserver-deployment
+  template:
+    metadata:
+      labels:
+        app: webserver-deployment
+    spec:
+      containers:
+      - name: webserver
+        image: oliverrhen/webserver-new
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
