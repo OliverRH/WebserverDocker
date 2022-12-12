@@ -15,8 +15,8 @@ Du kan vælge selv at bygge dit docker image, det gør du ved at køre følgende
 ```
 docker build -t webserver .
 ```
-____
-###
+
+#
 Start med at starte minikube:
 
 ```
