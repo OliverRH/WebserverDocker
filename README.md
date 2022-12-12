@@ -1,7 +1,7 @@
 
 # Installere webserver fra docker image
 
-Jeg har uploaded et docker image som består af websiden med HTML, CSS og JavaScript, og så selve webserver delen som benytter Apache HTTP Server Project (httpd). Derudover har jeg to YAML filer, webserver-deployment.yaml og webserver-service.yaml, der skal bruges for at køre webserveren.
+Jeg har uploaded et docker image som består af websiden med HTML, CSS og JavaScript, og så selve webserver delen som benytter Apache HTTP Server Project (httpd). Derudover har jeg to YAML filer, **webserver-deployment.yaml** og **webserver-service.yaml**, der skal bruges for at køre webserveren.
 
 
 
@@ -16,7 +16,12 @@ Du kan vælge selv at bygge dit docker image, det gør du ved at køre følgende
 docker build -t webserver .
 ```
 
-#
+Jeg har også uploade dette image på hub.docker.com, det kan hentes ved at bruge:
+```
+oliverrhen/webserver
+```
+
+###
 Start med at starte minikube:
 
 ```
