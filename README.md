@@ -21,7 +21,7 @@ Jeg har også uploade dette image på hub.docker.com, det kan hentes ved at brug
 oliverrhen/webserver
 ```
 
-###
+##
 Start med at starte minikube:
 
 ```
