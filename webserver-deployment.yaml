@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: oliverrhen/webserver-new
+        image: oliverrhen/webserver:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
