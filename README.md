@@ -1,5 +1,5 @@
 
-# Installere webserver fra docker image
+# Installer webserver fra docker image
 
 Jeg har uploaded et docker image som består af websiden med HTML, CSS og JavaScript, og så selve webserver delen som benytter Apache HTTP Server Project (httpd). Derudover har jeg to YAML filer, **webserver-deployment.yaml** og **webserver-service.yaml**, der skal bruges for at køre webserveren.
 
